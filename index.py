@@ -31,6 +31,6 @@ if __name__ == "__main__":
     bot.remove_command('help')
 
     try:
-        bot.run(envConf("TOKEN"))
+        bot.run(envConf("ODk1MzIyMTQ3NTc5MzcxNTYw.GJY5EV.HvE4kJZhIFAtqqxLlEnPzMg5SGTdBb56oztNls"))
     except Exception as e:
         print(f'Error when logging in: {e}')
